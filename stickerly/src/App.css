@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Nunito', sans-serif;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #f5576c 75%, #4facfe 100%);
+  background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 25%, #ffc3d8 50%, #ff8a95 75%, #ffb3d9 100%);
   background-size: 400% 400%;
   animation: gradientShift 8s ease infinite;
   min-height: 100vh;
@@ -42,7 +42,7 @@ h1 {
   margin-bottom: 8px;
   font-weight: 800;
   text-shadow: 0 0 15px rgba(255,255,255,0.4);
-  background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #f093fb);
+  background: linear-gradient(45deg, #ff6b9d, #ff8fab, #ffa8cc, #ffb3d9);
   background-size: 300% 300%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -117,13 +117,13 @@ h1::before {
   display: inline-block;
   padding: 14px 28px;
   cursor: pointer;
-  background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(45deg, #ff6b9d 0%, #ff8fab 100%);
   color: white;
   border-radius: 40px;
   font-weight: 700;
   font-size: 1rem;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 6px 20px rgba(255, 107, 157, 0.4);
   border: 2px solid rgba(255,255,255,0.2);
   position: relative;
   overflow: hidden;
@@ -142,7 +142,7 @@ h1::before {
 
 .custom-file-upload:hover {
   transform: translateY(-5px) scale(1.05);
-  box-shadow: 0 15px 35px rgba(102, 126, 234, 0.6);
+  box-shadow: 0 15px 35px rgba(255, 107, 157, 0.6);
   animation: wiggle 0.5s ease-in-out, rainbow 2s ease-in-out infinite;
 }
 
@@ -180,15 +180,15 @@ button {
 }
 
 button:first-of-type {
-  background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
+  background: linear-gradient(45deg, #ff8fab 0%, #ffa8cc 100%);
   color: white;
-  box-shadow: 0 8px 25px rgba(240, 147, 251, 0.4);
+  box-shadow: 0 8px 25px rgba(255, 143, 171, 0.4);
 }
 
 button:last-of-type {
-  background: linear-gradient(45deg, #ffecd2 0%, #fcb69f 100%);
+  background: linear-gradient(45deg, #ffb3d9 0%, #ffc3e0 100%);
   color: #333;
-  box-shadow: 0 8px 25px rgba(252, 182, 159, 0.4);
+  box-shadow: 0 8px 25px rgba(255, 179, 217, 0.4);
 }
 
 button::before {
@@ -295,7 +295,7 @@ button:active:not(:disabled) {
   left: -2px;
   right: -2px;
   bottom: -2px;
-  background: linear-gradient(45deg, #667eea, #764ba2, #f093fb, #f5576c);
+  background: linear-gradient(45deg, #ff6b9d, #ff8fab, #ffa8cc, #ffb3d9);
   border-radius: 25px;
   z-index: -1;
   opacity: 0;
@@ -310,7 +310,7 @@ button:active:not(:disabled) {
 
 @keyframes cardGlow {
   0%, 100% { box-shadow: 0 25px 60px rgba(0,0,0,0.25); }
-  50% { box-shadow: 0 25px 60px rgba(102, 126, 234, 0.4), 0 0 40px rgba(240, 147, 251, 0.3); }
+  50% { box-shadow: 0 25px 60px rgba(255, 107, 157, 0.4), 0 0 40px rgba(255, 143, 171, 0.3); }
 }
 
 .preview-wrapper:hover::before {
@@ -330,13 +330,13 @@ button:active:not(:disabled) {
 .placeholder {
   width: 100%;
   height: 240px;
-  border: 2px dashed rgba(102, 126, 234, 0.3);
+  border: 2px dashed rgba(255, 143, 171, 0.3);
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  background: linear-gradient(135deg, #fef7f7 0%, #fdeef2 100%);
   color: #666;
   font-size: 1rem;
   text-align: center;
@@ -352,7 +352,7 @@ button:active:not(:disabled) {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(102, 126, 234, 0.1), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 143, 171, 0.1), transparent);
   animation: shimmer 2s infinite;
 }
 
@@ -374,8 +374,8 @@ button:active:not(:disabled) {
 }
 
 .placeholder:hover {
-  border-color: rgba(102, 126, 234, 0.6);
-  background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+  border-color: rgba(255, 143, 171, 0.6);
+  background: linear-gradient(135deg, #fdeef2 0%, #fce4ec 100%);
   transform: scale(1.02);
 }
 
@@ -430,7 +430,7 @@ button:active:not(:disabled) {
 }
 
 .header-section::before {
-  content: '✨ 💖 ✨';
+  content: '🌸 💖 🌸';
   position: absolute;
   top: -20px;
   left: 50%;
@@ -519,20 +519,20 @@ button:active:not(:disabled) {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 25px;
-  background: linear-gradient(45deg, #56ab2f, #a8e6cf);
+  background: linear-gradient(45deg, #ff6b9d, #ff8fab);
   color: white;
   text-decoration: none;
   border-radius: 25px;
   font-weight: 700;
   font-size: 1rem;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  box-shadow: 0 6px 20px rgba(86, 171, 47, 0.3);
+  box-shadow: 0 6px 20px rgba(255, 107, 157, 0.3);
   border: 2px solid rgba(255,255,255,0.2);
 }
 
 .download-link:hover {
   transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 10px 30px rgba(86, 171, 47, 0.5);
+  box-shadow: 0 10px 30px rgba(255, 107, 157, 0.5);
   animation: bounce 0.6s ease-in-out;
 }
 
@@ -588,7 +588,7 @@ button:active:not(:disabled) {
 
 /* Minimal floating elements */
 .container::before {
-  content: '💕';
+  content: '🌸';
   position: fixed;
   font-size: 1.5rem;
   animation: heartFloat 10s infinite;
@@ -600,7 +600,7 @@ button:active:not(:disabled) {
 }
 
 .container::after {
-  content: '✨';
+  content: '💖';
   position: fixed;
   font-size: 1.3rem;
   animation: starFloat 12s infinite;
@@ -635,7 +635,7 @@ button:active:not(:disabled) {
 
 /* Minimal particle elements */
 .controls::before {
-  content: '✨';
+  content: '🌸';
   position: absolute;
   font-size: 0.9rem;
   animation: particle1 18s infinite;
